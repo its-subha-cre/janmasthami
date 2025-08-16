@@ -97,7 +97,7 @@ st.markdown("<h1 style='text-align:center; color:#5C2E7E;'>🌼 Happy Janmashtam
 name = st.text_input("Enter your name to create a personalized greeting:")
 
 if st.button("Create My Greeting"):
-    base_url = "https://your-deployed-url.streamlit.app"  # Change this after deployment
+    base_url = "https://janmasthami-mywz5vcdcazkxuu9ax7feq.streamlit.app/"  # Change this after deployment
     share_url = f"{base_url}/?from={name}"
 
     st.markdown(f"<h2 style='text-align:center;'>🎉 Happy Janmashtami, {name}! 🎉</h2>", unsafe_allow_html=True)
